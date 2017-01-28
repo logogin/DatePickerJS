@@ -1,0 +1,22 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+<title></title>
+<script src="Picker.js"></script>
+</head>
+<link type="text/css" rel="stylesheet" href="Picker.css">
+<body>
+<script>
+    var picker = new Picker();
+    function show() {
+        picker.Show(document.all.theDate);
+    }
+</script>
+<table>
+    <tr>
+        <td><input type=text id="theDate"></td>
+        <td><img src="Picker/calendar.gif" onclick="show()"></td>
+    </tr>
+</table>
+</body>
+</html>
